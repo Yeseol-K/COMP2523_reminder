@@ -1,0 +1,26 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "Reminder Application",
+  "scripts": {
+    "start": "ts-node-dev --quiet src/index.ts",
+    "dev": "ts-node-dev --quiet --respawn --transpile-only src/index.ts",
+    "dev:debug": "ts-node-dev --inspect=4321 --respawn --transpile-only src/index.ts"
+  },
+  "keywords": [],
+  "author": "bcit",
+  "license": "MIT",
+  "dependencies": {
+    "@ptkdev/logger": "^1.7.2",
+    "prettier": "^2.2.1",
+    "readline-sync": "^1.4.10",
+    "table": "^6.8.1",
+    "ts-node-dev": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node-emoji": "^1.8.1",
+    "@types/readline-sync": "^1.4.3",
+    "typescript": "^4.1.3"
+  },
+  "main": ".prettierrc.js"
+}
